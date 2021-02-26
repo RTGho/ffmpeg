@@ -12,4 +12,6 @@ When executed, it will hash all the original files in the directory using sha1, 
 you for the input / output file extensions.  
 
 After processing, it will hash all the contents of the directory once again and output two 
-text files containing all the associated hash values. 
+text files containing all the associated hash values.
+
+Works on Windows, Linux / Mac 
