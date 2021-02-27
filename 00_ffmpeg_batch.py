@@ -2,8 +2,6 @@
 
 import subprocess, hashlib, os
 
-#Ok, this file works and is ready for testing on Mac
-#Doesn't include ffprobe functionality
 
 def encode_all_nix(in_file, out_ext):
     process = f'for i in *{in_file}; do ffmpeg -i "$i" "${{i%.*}}{out_ext}" ; done'
