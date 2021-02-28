@@ -57,7 +57,6 @@ in the original videos using this method.
 \t*************** WARNING ******************** \n''')
 
 
-print(' \r')
 print ("What is your Operating System? ")
 User_Sys = int(input("Enter 1. for Windows    OR    2. for Linux / MAC \n "))
 print('')
